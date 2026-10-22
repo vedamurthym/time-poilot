@@ -58,51 +58,7 @@ The application uses a frontend-only architecture and does not require a dedicat
 | LZ-String | Compressing timetable data for shareable links |
 | Lucide React | Icons |
 
-## ⚙️ Installation and Setup
 
-### Prerequisites
-
-- Node.js and npm
-- Git
-- A Google Gemini API key for AI-powered features
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/vedamurthym/time-poilot.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
-cd time-poilot
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure the Gemini API key
-
-Create a `.env` file in the project root and configure the variable expected by the application:
-
-```env
-VITE_GEMINI_API_KEY=your_gemini_api_key
-```
-
-Make sure the variable name matches the one used in the source code. Never commit your API key to GitHub.
-
-**Security note:** Vite environment variables prefixed with `VITE_` are exposed to client-side code. For production use, protect the API key with appropriate restrictions or move API calls behind a secure backend.
-
-### 5. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL printed in your terminal to use the application.
 
 ## 🚀 How to Use
 
